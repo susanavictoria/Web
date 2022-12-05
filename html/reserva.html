@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Reserva</title>
+		<meta charset="utf-8">
+		<style>
+		
+			body{
+				 text-align: center;
+				 background-color:lightskyblue;
+			}
+			
+			.titulo{
+			  margin-left: 2%;
+			}
+			a {
+			  text-decoration: none;
+			  color: #000;
+			  font-size: 120%;
+             }
+		</style>
+
+	</head>
+	<body>
+
+		<h1 id="h1">Restaurante Perlas del Mar</h1>
+
+		<a href="../index.html">Presentación</a>
+		<a class="titulo" href="menu.html">Menú</a>
+		<a class="titulo" href=" ">Reserva</a> <br> <hr>
+		
+		<br>
+		
+		<form>
+			<label for="fname">Nombre:</label>
+			<input type="text" id="fname" name="fname"><br><br>
+			<label for="pin">N.Tarjeta:</label>
+			<input type="text" id="pin" name="pin"><br><br>
+			<label for="date">Fecha:</label>
+  			<input type="datetime-local" id="date" name="date"><br><br>
+			<label for="text">Aviso:</label>
+			<textarea id="text" name="message" rows="3">...</textarea><br><br>
+			<label for="reserva">Zona:</label>
+			<label for="salon">Salon</label>
+			<input type="radio" id="salon" name="reserva" value="salon">
+			<label for="terraza">Terraza</label>
+			<input type="radio" id="css" name="reserva" value="terraza"><br><br>
+			<label for="parking">Parking</label>
+			<input type="checkbox" id="parking" name="parking"><br><br>
+			<input type="submit" value="Enviar">
+			<input type="reset">
+
+		</form>	
+		
+	</body>
+
+
+</html>
